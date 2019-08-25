@@ -31,3 +31,14 @@ body {
 .mainpage {
   min-height: 75vh;
 }
+
+
+@media all and (max-width: 480px) {
+  .mainpage {
+    min-height: 60vh;
+  }
+
+  .mainpage h1 {
+    font-size: 2rem;
+  }
+}
