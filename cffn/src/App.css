@@ -25,3 +25,9 @@ body {
   height: 3rem;
   width: 14rem;
 }
+
+
+/* Main Page section  */
+.mainpage {
+  min-height: 75vh;
+}
