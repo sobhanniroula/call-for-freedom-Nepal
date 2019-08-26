@@ -1,5 +1,7 @@
 :root {
   --mainColor: #fd7479;
+  --navbarGray: #f8f9fa;
+  --fadedGray: #aaa;
 }
 
 html, body {
@@ -30,6 +32,51 @@ body {
 /* Main Page section  */
 .mainpage {
   min-height: 75vh;
+  margin-top: 2rem;
+}
+
+.quote-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quote-img img{
+  width: auto;
+  height: auto;
+}
+
+.quote {
+  text-transform: uppercase;
+  color: var(--fadedGray);
+}
+
+.blockquote {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+}
+
+.blockquote-footer {
+  margin-top: 0.8rem;
+ }
+
+cite {
+  color: var(--mainColor);
+}
+
+
+/* Footer section  */
+.footer {
+  background-color: var(--navbarGray);
+  min-height: 5rem;
+  padding: 2rem;
+}
+
+#copyright-span {
+  font-size: 0.7rem;
+  text-align: center;
 }
 
 

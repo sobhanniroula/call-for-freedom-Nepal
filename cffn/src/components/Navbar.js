@@ -4,7 +4,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <div className="navbar-component">
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-light">
                     <a className="navbar-brand" href="/"><img src="/cffn-logo.png" alt="Cffn Logo"></img></a>
                     <button className="navbar-toggler custom-navbar-toggler" type="button" data-toggle="collapse" data-target="#custom-toggler">
                         <span className="navbar-toggler-icon"></span>

@@ -5,7 +5,7 @@ export const quotesArray = [
     },
     {
         "quote": "and sometimes you have to die just a little bit inside before you truly understand how to live.",
-        "author": ""
+        "author": "Unknown"
     },
     {
         "quote" : "You are braver than you believe, stronger than you seem, and smarter than you think.",

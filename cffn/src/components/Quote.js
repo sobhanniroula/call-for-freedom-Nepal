@@ -11,7 +11,6 @@ export default class Quote extends Component {
         }
     }
 
-
     render() {
         const num = Math.floor(Math.random() * (this.state.quotes.length));
         const currentQuote = this.state.quotes[num].quote;
