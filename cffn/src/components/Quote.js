@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { quotesArray } from '../allQuotes';
 
 
 export default class Quote extends Component {
@@ -6,36 +7,22 @@ export default class Quote extends Component {
         super(props);
 
         this.state = {
-            quotes: []
+            quotes: quotesArray
         }
     }
 
-    componentDidMount() {
-        fetch('quotes/get/quotes.json')
-            .then(res => res.json())
-            .then(data => {
-                this.setState({
-                    quotes: data.quotes
-                });
-                
-            }).catch(e => console.log(e))
-    }
 
     render() {
         const num = Math.floor(Math.random() * (this.state.quotes.length));
-        // const currentQuote = this.state.quotes[num];
-        // console.log(currentQuote);
-        const abc = setTimeout(() => {
-            const currentQuote = this.state.quotes[num];
-          console.log(currentQuote);
-          }, 2000);
-
+        const currentQuote = this.state.quotes[num].quote;
+        const currentAuthor = this.state.quotes[num].author;
+        
         return (
             <div className="quote">
                 <blockquote className="blockquote">
-                    &ldquo; She's everything, even when she's treated like nothing. &rdquo;
+                    &ldquo; {currentQuote} &rdquo;
                     <footer className="blockquote-footer">
-                        <cite>R.H. Sin</cite>
+                        <cite> {currentAuthor} </cite>
                     </footer>
                 </blockquote>
             </div>
