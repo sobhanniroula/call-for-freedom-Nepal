@@ -24,8 +24,12 @@ body {
 
 /* Navbar section  */
 .navbar .navbar-brand img {
-  height: 3rem;
-  width: 14rem;
+  height: 4rem;
+  width: auto;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon-custom {
+  color: var(--mainColor);
 }
 
 
@@ -33,11 +37,15 @@ body {
 .mainpage {
   min-height: 75vh;
   margin-top: 2rem;
+  border: 0.1rem solid var(--mainColor);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
 }
 
 .quote-img {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .quote-img img{
@@ -82,8 +90,19 @@ cite {
 
 
 @media all and (max-width: 480px) {
+  .navbar .navbar-brand img {
+    height: 2.5rem;
+  }
+  .navbar-toggler {
+    margin-left: 4rem;
+  }
+  .nav-item .nav-link {
+    text-align: right;
+    margin-right: 0.5rem;
+  }
   .mainpage {
     min-height: 60vh;
+    border: 0.04rem solid var(--mainColor);
   }
   .mainpage h1 {
     font-size: 2rem;
