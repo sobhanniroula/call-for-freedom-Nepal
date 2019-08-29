@@ -23,6 +23,11 @@ body {
 
 
 /* Navbar section  */
+.navbar-component {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .navbar .navbar-brand img {
   height: 4rem;
   width: auto;
@@ -34,28 +39,32 @@ body {
 
 .navbar-collapse .navbar-nav .nav-item .nav-link {
   margin-right: 1rem;
-  text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--fadedGray);
+  font-weight: 600;
+  letter-spacing: 0.05rem;
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: var(--mainColor);
 }
 
-.navbar-collapse .navbar-nav .nav-item .nav-link {
-  
+.navbar-collapse.order-2 .navbar-nav .nav-item .nav-link {
+  font-size: 1.5rem;
 }
 
 
 /* Main Page section  */
 .mainpage {
   min-height: 75vh;
-  margin-top: 2rem;
+  margin: 2rem 1rem;
+}
+
+.mainpage-top {
   border: 0.1rem solid var(--mainColor);
   border-radius: 1rem;
-  padding: 1rem 2rem;
-  margin: 1rem 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .quote-img {
@@ -92,14 +101,41 @@ cite {
 
 /* Footer section  */
 .footer {
-  background-color: var(--navbarGray);
   min-height: 5rem;
   padding: 2rem;
+}
+
+.footer-logo img {
+  height: 3rem;
+  width: auto;
+  margin-bottom: 1rem; 
+}
+
+.copyright-div {
+  font-size: 0.9rem;
+  color: var(--fadedGray);
+  padding-left: 1rem;
 }
 
 #copyright-span {
   font-size: 0.7rem;
   text-align: center;
+}
+
+.footer li a {
+  color: var(--fadedGray);
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.footer-links {
+  margin-left: -2rem;
+}
+
+.footer-social {
+  display: flex;
+  margin-left: -4rem;
+  margin-top: 1.5rem;
 }
 
 
@@ -109,17 +145,50 @@ cite {
     height: 2.5rem;
   }
   .navbar-toggler {
-    margin-left: 4rem;
+    margin-left: 5rem;
   }
-  .nav-item .nav-link {
+  .navbar-toggler:focus {
+    outline: 0;
+  }
+  .navbar-collapse .navbar-nav .nav-item .nav-link {
     text-align: right;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .navbar-collapse.order-2 .navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+  }
+  .navbar-collapse.order-2 .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   .mainpage {
     min-height: 60vh;
+    margin: 1rem 0.5rem;
+  }
+  .mainpage-top {
     border: 0.04rem solid var(--mainColor);
   }
   .mainpage h1 {
-    font-size: 2rem;
+    font-size: -2rem;
+  }
+  .footer-links {
+    margin-left: 0rem;
+  }
+  .footer-links li a{
+    margin-left: 0rem;
+  }
+  .copyright-div {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  #copyright-span {
+    font-size: 0.5rem;
+  }
+  .footer-social {
+    margin-left: -2rem;
+    margin-top: 0.7rem;
   }
 }
