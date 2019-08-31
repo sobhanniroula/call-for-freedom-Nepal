@@ -25,7 +25,7 @@ export default class Footer extends Component {
                             <h6>Social Sites</h6>
                             <ul className="list-unstyled footer-social">
                                 <li><a href="https://www.instagram.com/c.f.f.n/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/ShikshyaSang/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="mailto:callforfreedomnepal@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a></li>
                             </ul>
