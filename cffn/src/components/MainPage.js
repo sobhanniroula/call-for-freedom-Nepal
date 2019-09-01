@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Quote from './Quote';
+import CircularBar from './CircularBar.js';
 
 
 export default class MainPage extends Component {
@@ -15,6 +16,7 @@ export default class MainPage extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <Quote />
+                                <CircularBar />
                             </div>
                         </div>
                     </div>
