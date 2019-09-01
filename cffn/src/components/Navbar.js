@@ -27,15 +27,15 @@ export default class Navbar extends Component {
 
                         <div className="navbar-collapse collapse dual-nav w-50 order-2">
                             <ul className="nav navbar-nav ml-auto">
-                                <li className="nav-item"><a className="nav-link" href="https://www.instagram.com/c.f.f.n/"><i class="fab fa-instagram"></i></a></li>
-                                <li className="nav-item"><a className="nav-link" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li className="nav-item"><a className="nav-link" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
-                                <li className="nav-item"><a className="nav-link" href="mailto:callforfreedomnepal@gmail.com"><i class="far fa-envelope"></i></a></li>
+                                <li className="nav-item"><a className="nav-link" href="https://www.instagram.com/c.f.f.n/"><i className="fab fa-instagram"></i></a></li>
+                                <li className="nav-item"><a className="nav-link" href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
+                                <li className="nav-item"><a className="nav-link" href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
+                                <li className="nav-item"><a className="nav-link" href="mailto:callforfreedomnepal@gmail.com"><i className="far fa-envelope"></i></a></li>
                             </ul>
                         </div>
 
                         <button className="navbar-toggler custom-navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
-                            <span className="navbar-toggler-icon-custom"><i class="fas fa-bars"></i></span>
+                            <span className="navbar-toggler-icon-custom"><i className="fas fa-bars"></i></span>
                         </button>
 
                     </div>
