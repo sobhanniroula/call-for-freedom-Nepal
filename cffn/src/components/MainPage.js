@@ -16,6 +16,18 @@ export default class MainPage extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <Quote />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="mainpage-bottom">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 circular-bar-div">
+                                <CircularBar />
+                                <CircularBar />
+                                <CircularBar />
                                 <CircularBar />
                             </div>
                         </div>

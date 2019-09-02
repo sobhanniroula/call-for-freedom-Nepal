@@ -100,10 +100,16 @@ cite {
 
 
 /* Circular Progress Bar section */
+.circular-bar-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .circular-bar {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 
 .progress-container {
