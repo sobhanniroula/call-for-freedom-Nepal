@@ -107,9 +107,10 @@ cite {
 }
 .circular-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin: 1rem;
+  margin: 1rem 0.5rem;
+  flex-wrap: wrap;
 }
 
 .progress-container {
@@ -124,6 +125,7 @@ cite {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 
 .progressbar {
