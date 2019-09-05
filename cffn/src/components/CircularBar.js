@@ -7,6 +7,7 @@ export default class CircularBar extends Component {
             <div className="circular-bar">
                 {/* <div className="row">
                     <div className="col-lg-12 circular-bar-div"> */}
+                    
                         <div className="progress-container">
                             <svg className="progressbar" viewBox="0 0 64 64">
                                 <defs>
